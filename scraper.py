@@ -124,7 +124,7 @@ def is_valid(url):
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
-            + r"|rm|smil|wmv|swf|wma|zip|rar|gz|odc|apk|war)$", parsed.path.lower()):
+            + r"|rm|smil|wmv|swf|wma|zip|rar|gz|odc|apk|war|pps|xml|json|ppsx|svg|java|sql|sh|zip|tar|7z|rar)$", parsed.path.lower()):
             return False
     
         path_segments = parsed.path.lower().split('/')
@@ -137,7 +137,8 @@ def is_valid(url):
         if "calendar" in parsed.path.lower() or "events" in parsed.path.lower():
             if parsed.query: 
                 return False
-
+        if re.search(r'/\d{4}-\d{2}-\d{2}', url):
+            return False
         if len(url) > 200:
             return False
 
@@ -156,7 +157,9 @@ def is_valid(url):
             "?timeline", 
             "?format=",
             "/commit/", "/tree/", "/blob/", "/merge_requests/", 
-            "?view=", "/branches", "/tags", "/commits/"
+            "?view=", "/branches", "/tags", "/commits/","zip-attachment",       
+            "timeline",                  
+            "attachment",
         ]):
             return False
         return True

@@ -1,0 +1,91 @@
+--- CRAWLER REPORT ---
+
+Unique Pages Found: 2650
+
+--- LONGEST PAGE ---
+URL: https://chenli.ics.uci.edu/past-news
+Word Count: 7245
+
+--- TOP 50 COMMON WORDS ---
+research: 6745
+student: 5558
+software: 5265
+may: 4370
+engineering: 4201
+july: 4178
+september: 4146
+undergraduate: 4131
+june: 4079
+graduate: 4019
+informatics: 4001
+april: 3901
+december: 3722
+march: 3691
+november: 3674
+august: 3626
+january: 3553
+february: 3537
+october: 3259
+ph: 2984
+department: 2898
+computer: 2665
+students: 2600
+design: 2596
+ics: 2579
+will: 2492
+data: 2441
+project: 2434
+profiles: 2408
+projects: 2277
+support: 2273
+information: 2212
+master: 2197
+uci: 2128
+process: 2096
+alumni: 2050
+news: 2046
+spotlights: 2042
+can: 1983
+application: 1890
+next: 1774
+courses: 1764
+groups: 1744
+faculty: 1685
+people: 1680
+policies: 1672
+irvine: 1661
+books: 1653
+degrees: 1653
+use: 1613
+
+--- SUBDOMAINS ---
+aiclub.ics.uci.edu, 1
+asterix.ics.uci.edu, 6
+chenli.ics.uci.edu, 10
+cloudberry.ics.uci.edu, 43
+courselisting.ics.uci.edu, 1
+cyberclub.ics.uci.edu, 11
+ds4all.ics.uci.edu, 5
+flamingo.ics.uci.edu, 13
+fr.ics.uci.edu, 3
+frost.ics.uci.edu, 1
+grape.ics.uci.edu, 128
+graphics.ics.uci.edu, 3
+hai.ics.uci.edu, 6
+hobbes.ics.uci.edu, 11
+ics.uci.edu, 156
+informatics.uci.edu, 2
+ipubmed.ics.uci.edu, 1
+onboarding.ics.uci.edu, 4
+psearch.ics.uci.edu, 1
+redmiles.ics.uci.edu, 1
+stat.ics.uci.edu, 11
+stat.uci.edu, 2
+statistics-stage.ics.uci.edu, 10
+support.ics.uci.edu, 3
+swiki.ics.uci.edu, 2
+tastier.ics.uci.edu, 1
+wiki.ics.uci.edu, 3
+www.ics.uci.edu, 1810
+www.informatics.uci.edu, 400
+www.stat.uci.edu, 1
